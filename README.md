@@ -1,4 +1,4 @@
-#Lista de exercícios Java | Formação +PraTI
+# Lista de exercícios Java | Formação +PraTI
 1. Implemente a classe Produto com atributos privados nome, preco e quantidadeEmEstoque. Forneça getters e setters com validações: preco e quantidadeEmEstoque não podem ser negativos e nome não pode ser nulo ou vazio. Lance IllegalArgumentException em casos inválidos. Demonstre o uso criando instâncias, alterando valores válidos e tentando atribuições inválidas.
 2. Estenda Produto com o método aplicarDesconto(double porcentagem). Permita apenas valores entre 0 e 50 (inclusive) e lance exceção (IllegalArgumentException ou DescontoInvalidoException) se a regra for violada. Mostre, em um main ou testes, o preço antes/depois do desconto e a reação a entradas inválidas.
 3. Crie a classe base Funcionario com protected String nome e protected BigDecimal salario (com getters). Crie Gerente e Desenvolvedor que sobrescrevem calcularBonus(): 20% do salário para gerente e 10% para desenvolvedor. Garanta que salários sejam positivos. Em um programa, coloque diferentes funcionários em uma coleção do tipo List<Funcionario> e exiba o bônus de cada um.
